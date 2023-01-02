@@ -1,24 +1,3 @@
-
-make
-make html
-make man
-lynx doc/iputils.html
-Read...
-
-
-
-If the first "make" fails, no problems:
-
-make html
-lynx doc/iputils.html
-Read section "Installation notes"...
-
-
-
-But if "make html" fails too, check that DocBook package is installed
-on your machine. If it is installed, and nevertheless "make" does not work,
-delete iputils and go to sleep. The next day repeat. If even full reset
-did not help, I bring apologies. :-)
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0aa36ab77129d7aee7ded5062fa31bc7ffc0dc444270e105e3e8b6823442cd10
+size 429

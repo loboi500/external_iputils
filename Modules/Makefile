@@ -1,12 +1,3 @@
-KERNEL_INCLUDE=/usr/src/linux/include
-
-
-CC=gcc
-CCOPT=-O2 -Wstrict-prototypes -Wall -Werror -fno-strict-aliasing -fno-common
-CFLAGS=-DMODULE -D__KERNEL__ -I$(KERNEL_INCLUDE) $(CCOPT)
-
-
-all: pg3.o
-
-clean:
-	@rm -f *.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7bf8ac08bbce99300c9d924649c91ae1454fffb8685f22826117931693d0e6c
+size 215
